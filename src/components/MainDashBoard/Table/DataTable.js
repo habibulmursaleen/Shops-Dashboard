@@ -256,7 +256,7 @@ const rows = [
 export default function DataTable() {
   return (
     <div>
-      <h3>Recent Orders </h3>
+      <h3 style={{ color: "#0b5394" }} >Recent Orders </h3>
       <div style={{ height: 400, width: "100%" }}>
         <DataGrid
           rows={rows}
