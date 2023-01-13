@@ -60,6 +60,10 @@
   margin-right: calc(1rem - 8px);
 }
 
+.bars{
+    display: none;
+  }
+
 
 /* Tablets */
 @media screen and (max-width: 1200px) {
@@ -75,7 +79,7 @@
   .sidebar{
     position: fixed;
     z-index: 9;
-    background: #ffe0e0;
+    background: #fff;
     width: 55%;
     padding-right: 1rem;
     height: 100%;
@@ -95,7 +99,7 @@
     position: fixed;
     top: 2rem;
     left:60%;
-    background:#ffe0e0;
+    background: var(--green);
     padding:10px;
     border-radius: 10px;
     z-index: 9;
